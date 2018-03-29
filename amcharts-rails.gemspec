@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/crazymykl/amcharts-rails"
   s.summary     = "Integrates amCharts javascript charts with rails."
   s.description = ""
-  s.require_paths = %w(lib)
+  
   s.files = `git ls-files`.split("\n")
   s.test_files = Dir["test/**/*"]
 
